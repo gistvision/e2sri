@@ -9,13 +9,15 @@ If you use any of this code, please cite the following publication:
 
 ```bibtex
 @article{mostafavi2020e2sri,
-  author        = {S.Mohammad Mostafavi I., Jonghyun Choi and Kuk-Jin Yoon},
-  title         = {Learning to Super Resolve Intensity Images from Events},
-  journal       = {{IEEE} Conf. Comput. Vis. Pattern Recog. (CVPR)},
-  year          = 2020
-  pages         = 2768-2786
+  author  = {Mostafavi I., S. Mohammad and Choi, Jonghyun and Yoon, Kuk-Jin},
+  title   = {Learning to Super Resolve Intensity Images from Events},
+  journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  month   = {June},
+  year    = {2020},
+  pages   = {2768-2786}
 }
 ```
+
 
 ### Maintainer
 * [Mohammad Mostafavi](https://smmmmi.github.io/)
