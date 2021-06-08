@@ -1,6 +1,6 @@
 future==0.18.2
 numpy==1.18.5
-Pillow==8.1.1
+Pillow==8.2.0
 PyYAML==5.4
 torch==1.5.0
 torchvision==0.6.0
