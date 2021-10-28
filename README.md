@@ -9,7 +9,9 @@ Our extended and upgraded version produces highly consistent videos, and include
 
 If you use any of this code, please cite both following publications:
 
-```@article{mostafaviisfahani2021e2sri,
+
+```bibtex
+@article{mostafaviisfahani2021e2sri,
   title={E2SRI: Learning to Super-Resolve Intensity Images from Events},
   author={Mostafaviisfahani, Sayed Mohammad and Nam, Yeongwoo and Choi, Jonghyun and Yoon, Kuk-Jin},
   journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
@@ -79,6 +81,12 @@ From this sample event stack, you should produce a similar (resized) result as:
 <img src="https://github.com/gistvision/e2sri/blob/master/images/event.png"> <img src="https://github.com/gistvision/e2sri/blob/master/images/sample.png" width="240" height="180">
 
 
+## Inference
+
+```bash
+python train.py --data_dir ../slider_depth --checkpoint_dir .. --save_dir ../output
+```
+
 ## Event Stacking
 
 We provided a sample sequence ([slider_depth.zip](https://drive.google.com/file/d/1YLXeY7bK4QyN26l9ILHD-tmc4Suwdch-/view?usp=sharing)) made from the rosbags of the [Event Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html). The rosbag (bag) is a file format in ROS (Robot Operating System) for storing ROS message data.
@@ -102,16 +110,15 @@ A list of publicly available event datasets for testing:
 
 ## Related publications
 
-- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021 (PDF)](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
 
-- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+- [E2SRI: Learning to Super Resolve Intensity Images from Events - TPAMI 2021 (Link)](https://www.computer.org/csdl/journal/tp/5555/01/09485034/1veokqDc14Q)
 
-- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+- [Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction - IJCV 2021 (PDF)](http://vi.kaist.ac.kr/wp-content/uploads/2021/04/Mostafavi2021_Article_LearningToReconstructHDRImages-1.pdf)
 
-- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+- [Learning to Super Resolve Intensity Images from Events - Openaccess CVPR 2020 (PDF)](https://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
 
-- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
-
+- [Event-Based High Dynamic Range Image and Very High Frame Rate Video Generation Using Conditional Generative Adversarial Networks - Openaccess CVPR 2019 (PDF)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Event-Based_High_Dynamic_Range_Image_and_Very_High_Frame_Rate_CVPR_2019_paper.pdf)
 
 
 ## License
