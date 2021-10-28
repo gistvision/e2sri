@@ -81,7 +81,7 @@ From this sample event stack, you should produce a similar (resized) result as:
 <img src="https://github.com/gistvision/e2sri/blob/master/images/event.png"> <img src="https://github.com/gistvision/e2sri/blob/master/images/sample.png" width="240" height="180">
 
 
-## Inference
+## Train
 
 ```bash
 python train.py --data_dir ../slider_depth --checkpoint_dir .. --save_dir ../output
