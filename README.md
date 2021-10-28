@@ -4,18 +4,33 @@ This is a code repo for **[Learning to Super Resolve Intensity Images from Event
 
 [![E2SRI](https://github.com/gistvision/e2sri/blob/master/images/E2SRI.png)](https://youtu.be/ZMFAseI1DM8)
  
+Our extended and upgraded version produces highly consistent videos, and includes further details and experiments [E2SRI: Learning to Super-Resolve Intensity Images from Events - TPAMI 2021](https://www.computer.org/csdl/journal/tp/5555/01/09485034/1veokqDc14Q)
 
-If you use any of this code, please cite the following publication:
+
+If you use any of this code, please cite both following publications:
+
+```@article{mostafaviisfahani2021e2sri,
+  title={E2SRI: Learning to Super-Resolve Intensity Images from Events},
+  author={Mostafaviisfahani, Sayed Mohammad and Nam, Yeongwoo and Choi, Jonghyun and Yoon, Kuk-Jin},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  number={01},
+  pages={1--1},
+  year={2021},
+  publisher={IEEE Computer Society}
+}
+```
 
 ```bibtex
 @article{mostafavi2020e2sri,
-  author        = {S.Mohammad Mostafavi I., Jonghyun Choi and Kuk-Jin Yoon},
-  title         = {Learning to Super Resolve Intensity Images from Events},
-  journal       = {{IEEE} Conf. Comput. Vis. Pattern Recog. (CVPR)},
-  year          = 2020
-  pages         = 2768-2786
+  author  = {Mostafavi I., S. Mohammad and Choi, Jonghyun and Yoon, Kuk-Jin},
+  title   = {Learning to Super Resolve Intensity Images from Events},
+  journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  month   = {June},
+  year    = {2020},
+  pages   = {2768-2786}
 }
 ```
+
 
 ### Maintainer
 * [Mohammad Mostafavi](https://smmmmi.github.io/)
@@ -85,13 +100,22 @@ A list of publicly available event datasets for testing:
 - [Color event sequences from the CED dataset Scheerlinck et al., CVPR'18](http://rpg.ifi.uzh.ch/data/E2VID/datasets/CED_CVPRW19/)
 
 
-## Training
+## Related publications
 
-We are planning to release train code soon, stay tuned.
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
 
-Event to stacking using APS code will be released first.
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+
+
 
 ## License
+
 
 MIT license.
 
