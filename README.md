@@ -64,6 +64,10 @@ unzip pyflow.zip
 
 - Unzip the dataset.zip file and put the pth weight file in the main folder
 
+```bash
+unzip dataset.zip
+cd src
+```
 
 ## Inference
 - Run inference:
