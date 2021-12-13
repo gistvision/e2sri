@@ -9,9 +9,7 @@ Our extended and upgraded version produces highly consistent videos, and include
 
 If you use any of this code, please cite both following publications:
 
-
-```bibtex
-@article{mostafaviisfahani2021e2sri,
+```@article{mostafaviisfahani2021e2sri,
   title={E2SRI: Learning to Super-Resolve Intensity Images from Events},
   author={Mostafaviisfahani, Sayed Mohammad and Nam, Yeongwoo and Choi, Jonghyun and Yoon, Kuk-Jin},
   journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
@@ -59,19 +57,18 @@ cd src
 unzip pyflow.zip
 ```
 
-## Inference
+## Preliminary
 - Download the linked material below
-  * Pretrained weight ([2x_7S_weight.zip](https://drive.google.com/file/d/1rlPQoQtw496AWrRor3jMFfF2ETgpLBMx/view?usp=sharing)) for 2x scale (2x width and 2x height) and 7S sequences of stacks.
-  * A sample real-world sequence of stacks ([slider_depth.zip](https://drive.google.com/file/d/1YLXeY7bK4QyN26l9ILHD-tmc4Suwdch-/view?usp=sharing)).
+  * Sample pretrained weight ([2x_7s.pth](https://drive.google.com/file/d/1fCPGoAynMVLI_23vuDsceL_39rkt1QJl/view?usp=sharing)) for 2x scale (2x width and 2x height) and 7S sequences of stacks.
+  * Sample dataset for training and testing ([datasets.zip](https://drive.google.com/file/d/1d11Ec-vUHPNmIDJZi-YSQ_50WdOxHdlo/view?usp=sharing)).
 
-- Unzip and put the files in 2x_7S_weight.zip (Final.pth) to the weight folder (/e2sri/weight/Final.pth)
+- Unzip the dataset.zip file and put the pth weight file in the main folder
 
-- Unzip the sample event stack folder slider_depth and put it in the root folder (/e2sri/slider_depth)
 
-- Run reconstruction:
-
+## Inference
+- Run inference:
 ```bash
-python test.py --data_dir ../slider_depth --checkpoint_dir .. --save_dir ../output
+python test.py --data_dir ../slider_depth --checkpoint_path ../2x_7s.pth --save_dir ./save_dir
 ```
 
 Note that our code with the given weights (7S) consumes ~ 4753MiB GPU memory at inference.
@@ -80,12 +77,11 @@ From this sample event stack, you should produce a similar (resized) result as:
 
 <img src="https://github.com/gistvision/e2sri/blob/master/images/event.png"> <img src="https://github.com/gistvision/e2sri/blob/master/images/sample.png" width="240" height="180">
 
-
-## Train
-
-```bash
-python train.py --data_dir ../slider_depth --checkpoint_dir .. --save_dir ../output
+## Training
+- Run training:
+```bash python3 train.py --config_path ./configs/2x_3.yaml --data_dir ../Gray_5K_7s_tiny --save_dir ./save_dir
 ```
+
 
 ## Event Stacking
 
@@ -95,6 +91,7 @@ The matlab code depends on [matlab_rosbag](https://github.com/bcharrow/matlab_ro
 
 **Note:**
 The output image quality relies on "events_per_stack" and "stack_shift". We used "events_per_stack"=5000, however we did not rely on "stack_shift" as we synchronized with APS frames instead. The APS synchronized stacking when this 5000 setting should be kept will be released with the training code together.
+
 
 ## Datasets
 
@@ -125,5 +122,3 @@ A list of publicly available event datasets for testing:
 
 
 MIT license.
-
-
