@@ -83,7 +83,8 @@ From this sample event stack, you should produce a similar (resized) result as:
 
 ## Training
 - Run training:
-```bash python3 train.py --config_path ./configs/2x_3.yaml --data_dir ../Gray_5K_7s_tiny --save_dir ./save_dir
+```bash 
+python3 train.py --config_path ./configs/2x_3.yaml --data_dir ../Gray_5K_7s_tiny --save_dir ./save_dir
 ```
 
 
