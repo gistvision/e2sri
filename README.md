@@ -72,7 +72,7 @@ cd src
 ## Inference
 - Run inference:
 ```bash
-python test.py --data_dir ../slider_depth --checkpoint_path ../2x_7s.pth --save_dir ./save_dir
+python test.py --data_dir ../dataset/slider_depth --checkpoint_path ../save_dir/2x_7s.pth --save_dir ../save_dir
 ```
 
 Note that our code with the given weights (7S) consumes ~ 4753MiB GPU memory at inference.
@@ -84,7 +84,7 @@ From this sample event stack, you should produce a similar (resized) result as:
 ## Training
 - Run training:
 ```bash 
-python3 train.py --config_path ./configs/2x_3.yaml --data_dir ../Gray_5K_7s_tiny --save_dir ./save_dir
+python3 train.py --config_path ./configs/2x_3.yaml --data_dir ../dataset/Gray_5K_7s_tiny --save_dir ../save_dir
 ```
 
 
