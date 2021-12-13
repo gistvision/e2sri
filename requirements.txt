@@ -1,7 +1,11 @@
 future==0.18.2
 numpy==1.18.5
-Pillow==8.3.2
+Pillow==8.1.1
 PyYAML==5.4
 torch==1.5.0
 torchvision==0.6.0
 yacs==0.1.7
+scikit-image
+Cython
+tqdm
+
