@@ -55,6 +55,8 @@ pip install -r requirements.txt
 ```bash
 cd src
 unzip pyflow.zip
+cd pyflow
+python3 setup.py build_ext -i
 ```
 
 ## Preliminary
