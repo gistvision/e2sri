@@ -5,3 +5,7 @@ PyYAML==5.4
 torch==1.5.0
 torchvision==0.6.0
 yacs==0.1.7
+scikit-image
+Cython
+tqdm
+
