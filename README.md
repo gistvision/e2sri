@@ -9,14 +9,15 @@ Our extended and upgraded version produces highly consistent videos, and include
 
 If you use any of this code, please cite both following publications:
 
-```@article{mostafaviisfahani2021e2sri,
-  title={E2SRI: Learning to Super-Resolve Intensity Images from Events},
-  author={Mostafaviisfahani, Sayed Mohammad and Nam, Yeongwoo and Choi, Jonghyun and Yoon, Kuk-Jin},
-  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
-  number={01},
-  pages={1--1},
-  year={2021},
-  publisher={IEEE Computer Society}
+```bibtex
+@article{mostafaviisfahani2021e2sri,
+  title     = {E2SRI: Learning to Super-Resolve Intensity Images from Events},
+  author    = {Mostafaviisfahani, Sayed Mohammad and Nam, Yeongwoo and Choi, Jonghyun and Yoon, Kuk-Jin},
+  journal   = {IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  number    = {01},
+  pages     = {1--1},
+  year      = {2021},
+  publisher = {IEEE Computer Society}
 }
 ```
 
@@ -113,6 +114,8 @@ A list of publicly available event datasets for testing:
 
 
 ## Related publications
+
+- [Stereo Depth from Events Cameras: Concentrate and Focus on the Future]() + [Code]() - CVPR 2022 (TBU)
 
 - [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021 (PDF)](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
 
